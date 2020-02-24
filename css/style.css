@@ -36,5 +36,32 @@ li{
     vertical-align: middle;
 
 }
+.box{
+    width: 130px;
+    height: 195px;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    margin: 20px;
+    float: left;
+
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.wrapper .box .imgbox{
+    width: 130px;
+    height: 195px;
+    border-radius: 5px;
+    background-size: cover;
+}
+.wrapper .box .imgbox .img{
+    width: 300px;
+    height: 195px;
+    float: left;
+}
 
 
