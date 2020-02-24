@@ -46,15 +46,15 @@ li{
 .body{
     align-content: center;
 }
-.name{
+#mce-FNAME{
     width: 350px;
     background-color: transparent;
 }
-.Email{
+#mce-EMAIL{
     width: 350px;
     background-color: transparent;
 }
-.message{
+#mce-MESSAGE{
     width: 700px;
     height: 200px;
     background-color: transparent;
@@ -66,5 +66,9 @@ li{
 #design{
     display: none;
 }
-
-
+#development{
+    display: none;
+}
+#product{
+    display: none;
+}

@@ -14,7 +14,7 @@ $(document).ready(function(){
     
     
 
-    $(".submit").click(function(){
+     $(".submit").click(function(){
         var name =  $(".name").val()
         var Email =  $(".Email").val()
         var message =$(".message").val()
@@ -28,39 +28,7 @@ $(document).ready(function(){
 
         
 
-    });
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    });*/
 
 
 
