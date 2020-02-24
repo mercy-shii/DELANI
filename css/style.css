@@ -29,7 +29,8 @@ li{
     display: inline-block;
     font-size: 20px;
     padding: 1px 1px;
-    vertical-align: middle;
+    vertical-align: baseline;
+    align-items: center;
 
 }
 .box{
@@ -53,7 +54,7 @@ li{
     width: 350px;
     background-color: transparent;
 }
-.Message{
+.message{
     width: 700px;
     height: 200px;
     background-color: transparent;
