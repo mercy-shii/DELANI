@@ -62,5 +62,8 @@ li{
 .media{
     text-align: center;
 }
+#design{
+    display: none;
+}
 
 

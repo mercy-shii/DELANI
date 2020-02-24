@@ -1,7 +1,46 @@
-$(document).ready(function){
-    $("image").click(function(){
-        $("design icon").fadeIn;
-        $("dev icon").fadeIn;
-        $("product icon").fadeIn;
+
+$(document).ready(function(){
+
+    $("#img1").click(function(){
+        $("#design").toggle()
     });
+    $("#img2").click(function(){
+        $("#development").toggle()
+    });
+    $("#img3").click(function(){
+        $("#product").toggle()
+    });
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
