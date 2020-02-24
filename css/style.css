@@ -13,10 +13,6 @@
     height: 400px;
     font-size: x-large;
 }
-.td{
-    width: 50px;
-    height: 70px;
-}
 .section-E{
     background-image: url('../images/backgrounds/c_image.jpg');
     background-size: cover;
@@ -46,25 +42,25 @@ li{
     float: left;
 
 }
-.wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.wrapper .box .imgbox{
-    width: 130px;
-    height: 195px;
-    border-radius: 5px;
-    background-size: cover;
-}
-.wrapper .box .imgbox .img{
-    width: 300px;
-    height: 195px;
-    float: left;
-}
 .body{
     align-content: center;
+}
+.name{
+    width: 350px;
+    background-color: transparent;
+}
+.Email{
+    width: 350px;
+    background-color: transparent;
+}
+.Message{
+    width: 700px;
+    height: 200px;
+    background-color: transparent;
+    padding-bottom: 160px;
+}
+.media{
+    text-align: center;
 }
 
 
