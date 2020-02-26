@@ -13,11 +13,27 @@ $(document).ready(function(){
     })
     
     $("#img2").click(function(){
-        $("#development").toggle()
-    });
+        $("#img2").hide();
+        $("#development").toggle();
+        $("#development").show();
+    })
+    $("#development").click(function(){
+        $("#development").hide();
+        $("#img2").toggle();
+        $("#img2").show();
+    })
+
     $("#img3").click(function(){
-        $("#product").toggle()
-    });
+        $("#img3").hide();
+        $("#product").toggle();
+        $("#product").show();
+    })
+    $("#product").click(function(){
+        $("#product").hide();
+        $("#img3").toggle();
+        $("#img3").show();
+    })
+
      $(".submit").click(function(){
         var name =  $("mce-FNAME").val()
         var Email =  $("mce-EMAIL").val()
