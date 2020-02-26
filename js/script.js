@@ -100,4 +100,15 @@ $(document).ready(function(){
 
 
 
+    $(document).ready(function(){
+        $("#work8").hover(function(){
+            $("#test8").fadeIn("slow");
+            $("#test8").show();
+        }).mouseout(function(){
+            $("#test8").hide();
+        });
+        });
+
+
+
 });
