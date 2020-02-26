@@ -35,9 +35,9 @@ $(document).ready(function(){
     })
 
      $(".submit").click(function(){
-        var name =  $("mce-FNAME").val()
-        var Email =  $("mce-EMAIL").val()
-        var  message=$("mce-MESSAGE").val()
+        var name =  $("name").val()
+        var Email =  $("Email").val()
+        var  message=$("message").val()
 
         if(name && Email && message){
             alert(name + " we have received your message.Thank you for reaching to us");
@@ -45,7 +45,11 @@ $(document).ready(function(){
         }else{
             alert('check your input');
         }
-    });
+      });
+        $("form").submit(function(event) {
+            var name=$("name").val();
+            alert("Thank you" + name + "for getting back to us");
+        })
 
     $(document).ready(function(){
     $("#work4").hover(function(){
