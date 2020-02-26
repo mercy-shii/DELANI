@@ -21,7 +21,6 @@
 }
 .form{
     background-color: inherit;
-    /*change hapa vile unaona inafaa*/
 }
 li{
     list-style: none;
@@ -90,4 +89,8 @@ li{
 #work3{
     position: relative;
 }
+.my-second text{
+    font-size: xx-small;
+}
+
 
