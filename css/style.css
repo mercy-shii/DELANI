@@ -1,6 +1,6 @@
  .container{
     background-size: cover;
-    width: 20px;
+    width: 500px;
     height: 500px;
     text-align: center;
     padding: 50px;
@@ -41,7 +41,7 @@
 .container-2{
     background-image: url('../images/backgrounds/c_image.jpg');
     background-size: cover;
-    height: 400px;  
+    height: 500px;  
     box-shadow: transparent; 
     align-content: center;
     text-align: center;
@@ -69,16 +69,17 @@ li{
     align-items: center;
 }
 #mce-FNAME{
-    width: 350px;
+    width: 400px;
     background-color: transparent;
+    margin-left: 130px;
 }
 #mce-EMAIL{
-    width: 350px;
+    width: 300px;
     background-color: transparent;
     padding-right: 1px;
 }
 #mce-MESSAGE{
-    width: 700px;
+    width: 980px;
     height: 200px;
     background-color: transparent;
     padding-bottom: 160px;
@@ -183,3 +184,6 @@ li{
     flex-wrap: wrap;
 }
 
+ul {
+    margin-left: 200px;
+}
